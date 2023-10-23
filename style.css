@@ -1,0 +1,88 @@
+html {
+    background-color: rgb(245, 214, 123);
+    display: block;
+    box-sizing: border-box;
+}
+
+nav { display: flex;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin: -20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+}
+
+main {
+    min-height: 145vh;
+    box-shadow: 10px 5x 5px;
+    background-color: rgba(208, 8, 8, 0.813);
+    height: fit-content;
+    margin-left: 180px;
+    margin-right: 180px;
+    box-shadow: 0 0 12px -2px black;
+}
+
+#main-head {
+    text-align: center;
+    font-size: 40px;
+}
+
+#home-image { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+#home-quote {
+    text-align: center;
+    font-size: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#about-header {
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 3px solid black;
+}
+
+.about-section {
+    border-bottom: 1px solid;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#port-header {
+    text-align: center;
+    border-bottom: 3px solid;
+}
+
+.port-sections {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 30px 20px 20px 30px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px rgb(40, 34, 34);
+}
+
+.port-h2 {
+    border: 2px solid ;
+}
